@@ -938,6 +938,7 @@ body.form--dark {
 
   .setting {
     padding-top: 200px;
+    min-height: 80vh;
   }
 }
 
@@ -982,6 +983,10 @@ body.form--dark {
 
   .xs {
     display: inline-block;
+  }
+
+  .setting {
+    min-height: 50vh;
   }
 }
 
