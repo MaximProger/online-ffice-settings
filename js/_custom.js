@@ -106,4 +106,12 @@ $(document).ready(function () {
 
   // Masks
   $(".phoneMask").mask("+7 (999) 999-9999");
+
+  // Обработчик событий изменения ширины
+  $(window).resize(function () {
+    $(".header").css("width", $("body").prop("clientWidth"));
+  });
+
+  // вызовем событие resize
+  $(window).resize();
 });

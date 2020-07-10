@@ -138,6 +138,8 @@ html {
 // }
 
 body {
+  position: relative;
+  min-height: 100vh;
   font-family: "Futura Futuris Regular";
   font-size: 14px;
   line-height: 1.3;
