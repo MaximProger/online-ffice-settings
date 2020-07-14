@@ -1,0 +1,124 @@
+@import "vars";
+
+.invite {
+  background: url("../img/common/invite__bg.png") no-repeat top #161b2f !important;
+}
+
+// Forum
+.forum {
+  padding-top: 135px;
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+
+.forum__inner {
+  background: rgba(0, 0, 0, 0.3);
+  height: 215px;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forum__form {
+  width: 100%;
+}
+
+.forum__title {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.forum__item {
+  width: 35%;
+
+  label {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
+.forum__wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.forum__btn {
+  height: 40px;
+}
+
+// Direction
+.direction {
+  padding-top: 20px;
+  padding-bottom: 170px;
+}
+
+.direction__title {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+.direction__table__wrapper {
+  border-radius: 10px;
+}
+
+.direction__table {
+  width: 100%;
+  border-collapse: unset;
+
+  tr {
+    vertical-align: middle;
+    font-size: 16px;
+    transition: all 0.2s linear;
+    background: rgba(0, 0, 0, 0.3);
+    &:nth-child(2n) {
+      background: none;
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  th {
+    height: 67px;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid #fff;
+    padding-left: 17px;
+  }
+
+  td {
+    height: 67px;
+    vertical-align: middle;
+    font-family: "Futura Futuris Light";
+    border: 1px solid #fff;
+    padding-left: 17px;
+  }
+}
+
+.direction__table__number {
+  width: 52px;
+}
+
+.direction__table__border--1 {
+  border-radius: 10px 0 0 0;
+}
+
+.direction__table__border--2 {
+  border-radius: 0 10px 0 0;
+}
+
+.direction__table__border--3 {
+  border-radius: 0 0 0 10px;
+}
+
+.direction__table__border--4 {
+  border-radius: 0 0 10px 0;
+}
